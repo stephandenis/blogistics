@@ -1,34 +1,34 @@
 export default function Hero() {
   return (
     <section
-      className='w-full bg-cover bg-no-repeat text-white py-16 px-12 lg:px-24'
+      className='w-full bg-cover bg-no-repeat text-white py-16 px-6 md:px-12 lg:px-24'
       style={{ backgroundImage: "url('/bg-desktop.png')" }}
     >
-      <div className='max-w-7xl mx-auto flex justify-between items-center gap-12 min-h-[500px]'>
+      <div className='max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-around gap-10 min-h-[500px]'>
         {/* Left Side - Text and Buttons */}
-        <div className='flex flex-col gap-4 max-w-md'>
-          <div className='text-[22px] font-semibold tracking-wide text-white'>
+        <div className='flex flex-col gap-4 max-w-md text-center lg:text-left'>
+          <div className='text-[20px] font-light leading-[16px] text-white'>
             Transforma tu negocio.
           </div>
-          <h1 className='text-5xl font-bold leading-tight'>
+          <h1 className='text-[40px] lg:text-[52px] font-bold leading-tight'>
             Somos B Logistics
           </h1>
-          <div className='text-[18px] text-white'>
-            Soluciones logisticas integrales con especializacion en temperaturas
+          <p className='font-nunito text-[16px] lg:text-[18px] text-white leading-relaxed antialiased'>
+            Soluciones logísticas integrales con especialización en temperaturas
             controladas, refrigeradas y congeladas.
-          </div>
-          <div className='flex gap-4 mt-4'>
+          </p>
+          <div className='flex flex-col sm:flex-row gap-4 mt-4 justify-center lg:justify-start'>
             <a
               href='#'
-              className='px-6 py-3 bg-[#167DCD] text-white rounded-md font-semibold'
+              className='px-6 py-3 bg-[#167DCD] text-white rounded-md font-semibold text-center'
             >
               PEDIR PRESUPUESTO
             </a>
             <a
               href='#'
-              className='px-6 py-3 border border-[#167DCD] text-white rounded-md font-semibold'
+              className='px-6 py-3 border border-[#167DCD] text-white rounded-md font-semibold text-center'
             >
-              Saber Mas
+              Saber Más
             </a>
           </div>
         </div>
@@ -43,25 +43,28 @@ export default function Hero() {
         </div>
 
         {/* Right Side - Icon Cards */}
-        <div className='flex flex-col gap-6 max-w-xs w-full'>
-          <div className='flex items-center gap-4 p-4 bg-white rounded-lg'>
-            <div className='w-12 h-12 bg-white rounded-full flex items-center justify-center text-black font-bold'>
-              <img src='/icon1.svg' alt='' />
-            </div>
+        <div className='flex flex-col gap-4 w-full max-w-xs items-center lg:items-start'>
+          {/* Card 1 */}
+          <div className='flex gap-4 bg-white rounded-xl p-5 shadow-md w-full'>
+            <img src='/icon1.svg' alt='Icon 1' className='w-10 h-10' />
             <div>
-              <p className='font-semibold text-black'>Transporte Total</p>
-              <p className='text-sm text-[#717580]'>
-                Desde el proveedor hasta la puerta del cliente.
+              <p className='font-nunito font-semibold text-black text-base'>
+                Transporte Total
+              </p>
+              <p className='font-nunito text-sm text-[#717580] leading-snug'>
+                Desde el proveedor hasta <br /> la puerta del cliente.
               </p>
             </div>
           </div>
-          <div className='flex items-center gap-4 p-4 bg-white rounded-lg'>
-            <div className='w-12 h-12 bg-white rounded-full flex items-center justify-center text-black font-bold'>
-              <img src='icon2.svg' alt='' />
-            </div>
+
+          {/* Card 2 */}
+          <div className='flex gap-4 bg-white rounded-xl p-5 shadow-md w-full'>
+            <img src='/icon2.svg' alt='Icon 2' className='w-10 h-10' />
             <div>
-              <p className='font-semibold text-black'>Carga y Descarga</p>
-              <p className='text-sm text-[#717580]'>
+              <p className='font-nunito font-semibold text-black text-base'>
+                Carga y Descarga
+              </p>
+              <p className='font-nunito text-sm text-[#717580] leading-snug'>
                 Contamos con Docks y Warehouses.
               </p>
             </div>

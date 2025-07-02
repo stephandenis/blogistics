@@ -24,7 +24,6 @@ export default function Navbar() {
                 alt='Logo'
                 width={299}
                 height={47}
-                className='lg:w-[299px] lg:h-[47px]'
                 priority
               />
             </div>
@@ -69,7 +68,7 @@ export default function Navbar() {
                 <a
                   key={item}
                   href='/'
-                  className='px-2 py-2 rounded-lg hover:text-[#097EC3] transition-colors'
+                  className='px-1 py-2 rounded-lg hover:text-[#097EC3] transition-colors'
                 >
                   {item}
                 </a>
@@ -82,7 +81,7 @@ export default function Navbar() {
                 href='/'
                 className='flex items-center gap-x-2 text-white font-semibold text-sm px-4 py-2
                            bg-[#244E93] rounded-md lg:rounded-xl lg:text-sm 
-                           lg:w-[190px] lg:h-[55px] lg:justify-center'
+                           lg:w-[180px] lg:h-[55px] lg:justify-center'
               >
                 <Image
                   src='/personsvg.svg'
