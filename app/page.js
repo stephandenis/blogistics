@@ -1,4 +1,4 @@
-import FeatureSection from "./components/FeatureSection";
+import Feature from "./components/Feature";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-      <FeatureSection />
+      <Feature />
     </div>
   );
 }
