@@ -7,6 +7,9 @@ module.exports = {
         "hero-tablet": "url('/bg-tablet.png')",
         "hero-desktop": "url('/bg-desktop.png')",
       },
+      fontFamily: {
+        rubik: ["RubikVariable", "sans-serif"],
+      },
     },
   },
   plugins: [],

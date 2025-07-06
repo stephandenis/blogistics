@@ -34,9 +34,9 @@ export default function Hero() {
         </div>
 
         {/* Center - Image */}
-        <div className='w-full max-w-sm'>
+        <div className='w-full'>
           <img
-            src='/truck-desktop.png'
+            src='/logo-truck.png'
             alt='Truck'
             className='hidden lg:block w-full h-auto object-contain'
           />
