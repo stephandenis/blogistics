@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Feature from "./components/Feature";
 import Hero from "./components/Hero";
+import HowWeWork from "./components/HowWeWork";
 import Navbar from "./components/Navbar";
 import Separator from "./components/Separator";
 import Services from "./components/Services";
@@ -18,6 +19,7 @@ export default function Home() {
       <ServicesExtra />
       <About />
       <WhyUsSelector />
+      <HowWeWork />
     </div>
   );
 }
