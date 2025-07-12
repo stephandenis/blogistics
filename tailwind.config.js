@@ -8,7 +8,7 @@ module.exports = {
         "hero-desktop": "url('/bg-desktop.png')",
       },
       fontFamily: {
-        rubik: ["RubikVariable", "sans-serif"],
+        afacad: ['"Afacad"', "sans-serif"],
       },
     },
   },
