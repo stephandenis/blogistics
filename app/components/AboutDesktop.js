@@ -26,13 +26,13 @@ export default function AboutDesktop() {
             Nuestro compromiso <br /> con los clientes
           </h2>
 
-          <p className='text-base text-gray-600 mb-8 max-w-2xl'>
+          <p className='text-base text-gray-600 mb-6 max-w-2xl'>
             Optimizamos su cadena de valor con adaptabilidad y eficiencia,
             ofreciendo soluciones de alta calidad, fiabilidad y trazabilidad.
           </p>
 
-          {/* Lista en 2 columnas */}
-          <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 text-sm text-gray-800'>
+          {/* Lista en 2 columnas ajustada */}
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-[8px] gap-y-[5px] w-1/2 text-sm text-gray-800'>
             {[
               "Experiencia y Seguridad",
               "Pensamos en el Cliente",
@@ -51,7 +51,7 @@ export default function AboutDesktop() {
           </div>
 
           {/* Card de contacto */}
-          <div className='relative bg-white rounded-xl shadow-md p-4 w-full max-w-md flex items-center gap-3 mt-20'>
+          <div className='relative bg-white rounded-xl shadow-md p-4 w-full max-w-md flex items-center gap-3 mt-16'>
             <Image src='/telefono.png' alt='Teléfono' width={30} height={30} />
             <div className='text-sm'>
               <p className='text-gray-800'>¿Tenés preguntas? Llámanos</p>
