@@ -3,6 +3,7 @@ import Feature from "./components/Feature";
 import Hero from "./components/Hero";
 import HowWeWork from "./components/HowWeWork";
 import Navbar from "./components/Navbar";
+import OurWorkDesktop from "./components/OurWork";
 import Separator from "./components/Separator";
 import Services from "./components/Services";
 import ServicesExtra from "./components/ServicesExtra";
@@ -20,6 +21,7 @@ export default function Home() {
       <About />
       <WhyUsSelector />
       <HowWeWork />
+      <OurWorkDesktop />
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default function Hero() {
     >
       <div className='max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-around gap-10 min-h-[500px]'>
         {/* Izquierda - Texto y botones */}
-        <div className='flex flex-col gap-4 max-w-[700px] w-full text-center lg:text-left pb-30 '>
+        <div className='flex flex-col gap-4 max-w-[700px] w-full text-center lg:text-left pb-40 '>
           <div className='text-lg font-semibold leading-[16px] text-white'>
             Transforma tu negocio.
           </div>

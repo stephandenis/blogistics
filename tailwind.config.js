@@ -9,6 +9,7 @@ module.exports = {
       },
       fontFamily: {
         afacad: ['"Afacad"', "sans-serif"],
+        exo: ["var(--font-exo)"],
       },
     },
   },
