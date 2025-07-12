@@ -1,11 +1,11 @@
 export default function Hero() {
   return (
     <section
-      className='w-full bg-cover bg-no-repeat text-white py-16 px-6 md:px-12 lg:px-24'
-      style={{ backgroundImage: "url('/bg-desktop.png')" }}
+      className='relative w-full bg-cover bg-no-repeat text-white py-16 px-6 md:px-12 lg:px-24'
+      style={{ backgroundImage: "url('/bg-copo.png')" }}
     >
       <div className='max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-around gap-10 min-h-[500px]'>
-        {/* Left Side - Text and Buttons */}
+        {/* Izquierda - Texto y botones */}
         <div className='flex flex-col gap-4 max-w-md text-center lg:text-left'>
           <div className='text-[20px] font-light leading-[16px] text-white'>
             Transforma tu negocio.
@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Center - Image */}
+        {/* Centro - Imagen del camión */}
         <div className='w-full'>
           <img
             src='/logo-truck.png'
@@ -42,9 +42,9 @@ export default function Hero() {
           />
         </div>
 
-        {/* Right Side - Icon Cards */}
+        {/* Derecha - Tarjetas con íconos */}
         <div className='flex flex-col gap-4 w-full max-w-xs items-center lg:items-start'>
-          {/* Card 1 */}
+          {/* Tarjeta 1 */}
           <div className='flex gap-4 bg-white rounded-xl p-5 shadow-md w-full'>
             <img src='/icon1.svg' alt='Icon 1' className='w-10 h-10' />
             <div>
@@ -57,7 +57,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Card 2 */}
+          {/* Tarjeta 2 */}
           <div className='flex gap-4 bg-white rounded-xl p-5 shadow-md w-full'>
             <img src='/icon2.svg' alt='Icon 2' className='w-10 h-10' />
             <div>
