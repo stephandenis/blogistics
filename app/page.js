@@ -1,4 +1,5 @@
 import About from "./components/About";
+import FAQ from "./components/FAQ";
 import Feature from "./components/Feature";
 import Hero from "./components/Hero";
 import HowWeWork from "./components/HowWeWork";
@@ -22,6 +23,7 @@ export default function Home() {
       <WhyUsSelector />
       <HowWeWork />
       <OurWorkDesktop />
+      <FAQ />
     </div>
   );
 }
