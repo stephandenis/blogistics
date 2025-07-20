@@ -40,7 +40,10 @@ export default function FAQ() {
   };
 
   return (
-    <section className='bg-white py-20 px-4 flex flex-col items-center'>
+    <section
+      className='bg-white py-20 px-4 flex flex-col items-center'
+      id='faq'
+    >
       <div className='max-w-xl text-center'>
         <p className='text-xs tracking-widest text-[#244E93] font-medium uppercase mb-2'>
           FAQ

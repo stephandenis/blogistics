@@ -25,7 +25,10 @@ const services = [
 
 export default function ServicesTablet() {
   return (
-    <section className='block lg:hidden w-full bg-[#f7f7f7] px-6 py-16 font-rubik'>
+    <section
+      className='block lg:hidden w-full bg-[#f7f7f7] px-6 py-16 font-rubik'
+      id='servicios'
+    >
       <div className='max-w-4xl mx-auto'>
         {/* Title + Description */}
         <div className='mb-10'>
@@ -46,7 +49,7 @@ export default function ServicesTablet() {
         </div>
 
         {/* Scrollable Services */}
-        <div className='flex gap-4 overflow-x-auto scrollbar-hide snap-x snap-mandatory'>
+        <div className='flex gap-4 overflow-x-auto cursor-grab scrollbar-hide snap-x snap-mandatory'>
           {services.map((service, index) => (
             <div
               key={index}

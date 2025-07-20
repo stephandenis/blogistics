@@ -2,6 +2,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
 import Feature from "./components/Feature";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import HowWeWork from "./components/HowWeWork";
 import Navbar from "./components/Navbar";
@@ -26,6 +27,7 @@ export default function Home() {
       <OurWorkDesktop />
       <FAQ />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -10,6 +10,15 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const menuItems = [
+    { label: "Home", href: "#home" },
+    { label: "Servicios", href: "#servicios" },
+    { label: "Nosotros", href: "#nosotros" },
+    { label: "Trabajos", href: "#trabajos" },
+    { label: "FAQ", href: "#faq" },
+    { label: "Contacto", href: "#contacto" },
+  ];
+
   return (
     <>
       <TopBar />
@@ -20,7 +29,7 @@ export default function Navbar() {
             {/* Logo */}
             <div className='hidden lg:block'>
               <Image
-                src='/logosvg.svg'
+                src='/blogisticslogo.svg'
                 alt='Logo'
                 width={299}
                 height={47}
@@ -56,21 +65,13 @@ export default function Navbar() {
 
             {/* Desktop Menu */}
             <div className='hidden lg:flex space-x-6 font-semibold text-black'>
-              {[
-                "Home",
-                "Servicios",
-                "Nosotros",
-                "Trabajos",
-                "FAQ",
-                "Contacto",
-                "Cotizar",
-              ].map((item) => (
+              {menuItems.map(({ label, href }) => (
                 <a
-                  key={item}
-                  href='/'
+                  key={label}
+                  href={href}
                   className='px-1 py-2 rounded-lg hover:text-[#097EC3] transition-colors'
                 >
-                  {item}
+                  {label}
                 </a>
               ))}
             </div>
@@ -100,21 +101,14 @@ export default function Navbar() {
         {isOpen && (
           <div className='lg:hidden bg-[#244E93]'>
             <div className='px-4 py-3 space-y-2 text-white'>
-              {[
-                "Home",
-                "Servicios",
-                "Nosotros",
-                "Trabajos",
-                "FAQ",
-                "Contacto",
-                "Cotizar",
-              ].map((item) => (
+              {menuItems.map(({ label, href }) => (
                 <a
-                  key={item}
-                  href='/'
+                  key={label}
+                  href={href}
+                  onClick={() => setIsOpen(false)} // cerrar menú al clickear
                   className='block rounded-lg px-3 py-2 hover:bg-white hover:text-black'
                 >
-                  {item}
+                  {label}
                 </a>
               ))}
             </div>

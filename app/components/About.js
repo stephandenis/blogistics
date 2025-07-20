@@ -3,7 +3,7 @@ import AboutTablet from "./AboutTablet";
 
 export default function FeatureStatsWrapper() {
   return (
-    <>
+    <section id='nosotros'>
       {/* Desktop only */}
       <div className='hidden lg:block'>
         <AboutDesktop />
@@ -15,6 +15,6 @@ export default function FeatureStatsWrapper() {
       </div>
 
       {/* Mobile hidden */}
-    </>
+    </section>
   );
 }

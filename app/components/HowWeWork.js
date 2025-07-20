@@ -29,7 +29,7 @@ const steps = [
 
 export default function HowWeWork() {
   return (
-    <section className='w-full px-4 py-16 bg-white text-center'>
+    <section className='w-full px-4 py-16 bg-white text-center' id='trabajos'>
       <div className='mb-4 text-sm text-blue-800 font-medium uppercase'>
         — Como trabajamos
       </div>

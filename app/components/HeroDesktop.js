@@ -57,7 +57,7 @@ export default function Hero() {
             <img src='/icon1.svg' alt='Icon 1' className='w-10 h-10' />
             <div>
               <p className=' font-semibold text-black text-base'>
-                Transporte Total
+                Logistica Integral
               </p>
               <p className=' text-sm text-[#717580] leading-snug'>
                 Desde el proveedor hasta <br /> la puerta del cliente.
@@ -70,10 +70,10 @@ export default function Hero() {
             <img src='/icon2.svg' alt='Icon 2' className='w-10 h-10' />
             <div>
               <p className=' font-semibold text-black text-base'>
-                Carga y Descarga
+                Opreaciones in-house
               </p>
               <p className=' text-sm text-[#717580] leading-snug'>
-                Contamos con Docks y Warehouses.
+                Gestion eficiente de stock
               </p>
             </div>
           </div>

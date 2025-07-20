@@ -3,7 +3,7 @@ import ServicesTablet from "./ServicesTablet";
 
 export default function ServicesWrapper() {
   return (
-    <>
+    <section id='servicios'>
       {/* Desktop only */}
       <div className='hidden lg:block'>
         <ServicesDesktop />
@@ -15,6 +15,6 @@ export default function ServicesWrapper() {
       </div>
 
       {/* Mobile hidden */}
-    </>
+    </section>
   );
 }
