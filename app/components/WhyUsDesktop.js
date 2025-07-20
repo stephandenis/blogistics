@@ -17,7 +17,9 @@ export default function WhyUsDesktop() {
 
           <div className='flex items-center gap-3'>
             <div className='bg-[#244E93] rounded-full p-3 shadow-md'>
-              <Image src='/flecha.svg' alt='Flecha' width={20} height={20} />
+              <a href='#contacto'>
+                <Image src='/flecha.svg' alt='Flecha' width={20} height={20} />
+              </a>
             </div>
             <span className='text-lg font-semibold text-[#1D1D1B]'>
               Contáctanos

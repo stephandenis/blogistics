@@ -24,13 +24,13 @@ export default function Hero() {
 
           <div className='flex flex-col sm:flex-row gap-4 mt-4 justify-center lg:justify-start'>
             <a
-              href='#'
+              href='#contacto'
               className='px-6 py-3 bg-[#167DCD] text-white rounded-md font-semibold text-center'
             >
               PEDIR PRESUPUESTO
             </a>
             <a
-              href='#'
+              href='#nosotros'
               className='px-6 py-3 border border-[#167DCD] text-white rounded-md font-semibold text-center'
             >
               Saber Más

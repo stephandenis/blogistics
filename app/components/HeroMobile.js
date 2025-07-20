@@ -27,13 +27,13 @@ export default function HeroMobile() {
         {/* Buttons */}
         <div className='flex flex-col items-start gap-3 mt-4'>
           <a
-            href='#'
+            href='#contacto'
             className='px-6 py-3 bg-[#167DCD] text-white rounded-md font-semibold'
           >
             PEDIR PRESUPUESTO
           </a>
           <a
-            href='#'
+            href='#nosotros'
             className='px-6 py-2 border border-white text-white rounded-md font-semibold'
           >
             Saber Más
