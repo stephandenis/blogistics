@@ -1,4 +1,5 @@
 import About from "./components/About";
+import BackToTop from "./components/BackToTop";
 import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
 import Feature from "./components/Feature";
@@ -28,6 +29,7 @@ export default function Home() {
       <FAQ />
       <Contact />
       <Footer />
+      <BackToTop />
     </div>
   );
 }

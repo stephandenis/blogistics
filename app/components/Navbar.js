@@ -11,7 +11,6 @@ export default function Navbar() {
   };
 
   const menuItems = [
-    { label: "Home", href: "#home" },
     { label: "Servicios", href: "#servicios" },
     { label: "Nosotros", href: "#nosotros" },
     { label: "Trabajos", href: "#trabajos" },
@@ -28,13 +27,15 @@ export default function Navbar() {
           <div className='flex items-center justify-between h-20 lg:h-[100px]'>
             {/* Logo */}
             <div className='hidden lg:block'>
-              <Image
-                src='/blogisticslogo.svg'
-                alt='Logo'
-                width={299}
-                height={47}
-                priority
-              />
+              <a href='/'>
+                <Image
+                  src='/blogisticslogo.svg'
+                  alt='Logo'
+                  width={299}
+                  height={47}
+                  priority
+                />
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
