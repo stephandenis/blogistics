@@ -7,7 +7,7 @@ export default function HeroTablet() {
       <div className='max-w-6xl mx-auto relative flex flex-col gap-6 pt-10 px-4'>
         {/* Logo */}
         <div className='mb-4'>
-          <img src='/logo.svg' alt='Logo' className='h-8' />
+          <img src='/tabletlogo.svg' alt='Logo' className='h-8' />
         </div>
 
         {/* Contenido principal */}

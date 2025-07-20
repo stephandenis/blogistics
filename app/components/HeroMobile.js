@@ -10,7 +10,7 @@ export default function HeroMobile() {
         {/* ✅ Logo Image */}
         <div className='w-full'>
           <Image
-            src='/logo-mobile.svg'
+            src='/mobilelogo.svg'
             alt='Blogistics Logo'
             width={254}
             height={40}
