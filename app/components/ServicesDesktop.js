@@ -63,11 +63,6 @@ export default function ServicesDesktop() {
                 className='object-cover group-hover:scale-105 transition-transform duration-300'
               />
 
-              {/* Overlay Gradiente solo visible al hacer hover si hay subtitle */}
-              {service.subtitle && (
-                <div className='absolute inset-0 bg-gradient-to-b from-[#097EC3] via-[#244E93] to-[#0A1E3F] opacity-0 group-hover:opacity-100 transition-opacity duration-300' />
-              )}
-
               {/* Texto */}
               <div className='absolute bottom-0 left-0 w-full p-4 z-10 text-white'>
                 <h3 className='font-semibold text-lg'>{service.title}</h3>
