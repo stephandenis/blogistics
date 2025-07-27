@@ -20,7 +20,7 @@ export default function HeroMobile() {
 
         {/* Text */}
         <div className='text-md text-white font-light'>
-          Transforma tu negocio
+          Aliados en tu crecimiento.
         </div>
         <h1 className='text-5xl font-bold leading-tight'>Somos B Logistics</h1>
 

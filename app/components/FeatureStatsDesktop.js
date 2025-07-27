@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const features = [
   {
-    icon: "/map.svg",
+    icon: "/team.svg",
     title: "3000+",
-    subtitle: "Viajes Realizados",
+    subtitle: "Planta de última generación",
   },
   {
     icon: "/team.svg",
@@ -59,9 +59,7 @@ export default function FeatureStatsSection() {
                 </div>
 
                 {/* Text */}
-                <h3 className='text-2xl font-bold text-[#244E93]'>
-                  {feature.title}
-                </h3>
+
                 <p className='text-black text-md font-semibold mt-2'>
                   {feature.subtitle}
                 </p>
@@ -71,8 +69,8 @@ export default function FeatureStatsSection() {
                   <Image
                     src='/snow.svg'
                     alt=''
-                    width={42}
-                    height={32}
+                    width={28}
+                    height={28}
                     className='z-20'
                   />
                 </div>

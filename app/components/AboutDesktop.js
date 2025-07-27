@@ -17,7 +17,7 @@ export default function AboutDesktop() {
         </div>
 
         {/* Contenido a la derecha */}
-        <div className='flex-1 flex flex-col justify-center'>
+        <div className='flex-1 flex flex-col justify-center gap-y-6'>
           <p className='text-[#244E93] uppercase text-sm font-semibold mb-2'>
             — Sobre Nosotros
           </p>
@@ -26,10 +26,10 @@ export default function AboutDesktop() {
             Nuestro compromiso <br /> con los clientes
           </h2>
 
-          <p className='text-base text-gray-600 mb-6 max-w-2xl'>
+          {/* <p className='text-base text-gray-600 mb-6 max-w-2xl'>
             Optimizamos su cadena de valor con adaptabilidad y eficiencia,
             ofreciendo soluciones de alta calidad, fiabilidad y trazabilidad.
-          </p>
+          </p> */}
 
           {/* Lista en 2 columnas ajustada */}
           <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-[8px] gap-y-[5px] w-1/2 text-sm text-gray-800'>

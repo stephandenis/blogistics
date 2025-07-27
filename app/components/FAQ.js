@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "¿Qué tipo de productos pueden almacenar en B Logistics?",
+    question: "¿Qué tipos de productos?",
     answer:
       "Podemos almacenar productos refrigerados, congelados y secos con distintos requerimientos de temperatura y seguridad.",
   },
@@ -18,12 +18,12 @@ const faqs = [
   {
     question: "¿Qué infraestructura ofrecen para almacenamiento?",
     answer:
-      "Ofrecemos cámaras de frío, zonas secas y racks de almacenamiento inteligente con control de inventario.",
+      "1,500 m² cubiertos. 2 túneles de congelado con capacidad total para 44 pallets. 450 posiciones para almacenamiento refrigerado y congelado. 45 posiciones en antecámara. ",
   },
   {
     question: "¿Qué medidas de seguridad tienen en sus instalaciones?",
     answer:
-      "Contamos con detección de amoníaco y humo, red contra incendios y estrictos controles de calidad.",
+      "Contamos con equipo detector de amoniaco, red de incendio, 2 grupos electrógenos y estrictos controles de calidad para asegurar el resguardo de tu mercadería.",
   },
   {
     question: "¿Ofrecen integración con sistemas propios del cliente?",

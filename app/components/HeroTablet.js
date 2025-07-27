@@ -15,7 +15,7 @@ export default function HeroTablet() {
           {/* Texto + Botones */}
           <div className='flex flex-col gap-4 max-w-md z-20'>
             <p className='text-sm text-gray-400 uppercase'>
-              Transforma tu negocio.
+              Aliados en tu crecimiento.
             </p>
             <h1 className='text-4xl font-bold leading-tight'>
               Somos
@@ -64,7 +64,7 @@ export default function HeroTablet() {
         {/* Camión */}
         <div className='relative -mt-8 z-0'>
           <img
-            src='/truck-tablet.png'
+            src='/logo-truck.png'
             alt='Truck'
             className='ml-auto max-w-[500px]'
           />

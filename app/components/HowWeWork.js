@@ -14,8 +14,8 @@ const steps = [
     id: "2",
   },
   {
-    title: "Actualización de Stock",
-    text: "Controla tu stock en tiempo real las 24 horas del día",
+    title: "Análisis de datos",
+    text: "Toma decisiones inteligentes con la interpretación de tus KPIs",
     icon: "/how/how-3.svg",
     id: "3",
   },

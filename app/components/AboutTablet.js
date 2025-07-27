@@ -19,7 +19,7 @@ export default function AboutTablet() {
         </div>
 
         {/* Contenido */}
-        <div className='w-full md:w-1/2 flex flex-col justify-center'>
+        <div className='w-full md:w-1/2 flex flex-col justify-center gap-y-2'>
           <p className='text-[#244E93] uppercase text-sm font-semibold mb-2'>
             — Sobre Nosotros
           </p>
@@ -28,11 +28,11 @@ export default function AboutTablet() {
             Nuestro compromiso <br />
             con los clientes
           </h2>
-
+          {/* 
           <p className='text-sm text-gray-600 mb-6'>
             Optimizamos su cadena de valor con adaptabilidad y eficiencia,
             ofreciendo soluciones de alta calidad, fiabilidad y trazabilidad.
-          </p>
+          </p> */}
 
           {/* Lista */}
           <div className='grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-800 mb-8'>

@@ -38,13 +38,13 @@ export default function ServicesTablet() {
           <h2 className='text-3xl font-bold text-[#12263F] mt-2'>
             Tu solución Logística <br /> en nuestras manos
           </h2>
-          <p className='text-sm text-[#1E1E1E] mt-4 leading-6 max-w-[600px]'>
-            Somos tu base de operaciones en Buenos Aires. Nuestra ubicación
-            estratégica en el Polo Industrial de Ezeiza, a solo 20 minutos del
-            Aeropuerto Internacional de Ezeiza y a 40 minutos de las principales
-            terminales portuarias, nos permite garantizar un almacenamiento
-            seguro y entregar tus productos con agilidad en tus puntos
-            estratégicos.
+          <p className='text-sm text-[#1E1E1E] mt-4 max-w-[600px] font-rubik'>
+            Ofrecemos soluciones integrales que se adapten a las necesidades de
+            tu negocio. Contamos con servicios de almacenamiento, túnel de
+            congelado, carga y descarga, y un sistema de gestión en tiempo real
+            que permite el control y trazabilidad de tus productos. Nuestro
+            compromiso es brindar eficiencia, seguridad y agilidad en cada etapa
+            de la cadena logística.
           </p>
         </div>
 

@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Afacad } from "next/font/google";
 import { Exo } from "next/font/google";
+import { Rubik } from "next/font/google";
 
 const afacad = Afacad({
   variable: "--font-afacad",
@@ -15,16 +16,23 @@ const exo = Exo({
   variable: "--font-exo",
 });
 
+const rubik = Rubik({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"], // adjust to the weights you need
+  variable: "--font-rubik",
+  display: "swap",
+});
+
 export const metadata = {
   title: "Blogistics",
-  description: "Soluciones logísticas integrales",
+  description: "Aliados en tu crecimiento.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang='es'>
       <body
-        className={`font-afacad ${afacad.variable} font-exo ${exo.variable} antialiased`}
+        className={`font-afacad ${afacad.variable} font-exo ${exo.variable} antialiased ${rubik.variable}`}
       >
         {children}
       </body>

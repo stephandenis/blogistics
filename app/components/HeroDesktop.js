@@ -10,7 +10,7 @@ export default function Hero() {
         {/* Izquierda - Texto y botones */}
         <div className='flex flex-col gap-4 max-w-[700px] w-full text-center lg:text-left pb-40 '>
           <div className='text-lg font-semibold leading-[16px] text-white'>
-            Transforma tu negocio.
+            Aliados en tu crecimiento.
           </div>
 
           <h1 className='font-afacad text-6xl w-full font-semibold leading-[64px] whitespace-nowrap'>

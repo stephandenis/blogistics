@@ -24,7 +24,7 @@ export default function AdditionalServices() {
   return (
     <section className='w-full bg-[#F6F6F6] py-20 px-4'>
       <div className='max-w-7xl mx-auto text-center'>
-        <h4 className='text-[#244E93] font-semibold uppercase tracking-wider text-sm mb-2'>
+        <h4 className='text-[#244E93] font-semibold uppercase tracking-wider text-lg mb-2'>
           ── Servicios Adicionales
         </h4>
         <h2
@@ -54,7 +54,7 @@ export default function AdditionalServices() {
                   className='w-full h-auto object-cover rounded-xl'
                 />
 
-                <div className='absolute left-1/2 transform -translate-x-1/2 translate-y-1/2 bottom-6 w-[80%] h-[120px] bg-white shadow-md rounded-xl px-6 py-6 flex items-center justify-start z-10 overflow-visible'>
+                <div className='absolute left-1/2 transform -translate-x-1/2 translate-y-1/2 bottom-6 w-[80%] h-[120px] bg-white shadow-md rounded-xl px-6 py-6 flex items-center justify-center z-10 overflow-visible'>
                   <h3
                     className='text-[#1F242E] font-bold text-2xl'
                     style={{ fontFamily: "Exo, sans-serif" }}
@@ -67,7 +67,7 @@ export default function AdditionalServices() {
                     <Image
                       src={service.icon}
                       alt='Decorativo'
-                      width={42}
+                      width={32}
                       height={32}
                       className='z-20 opacity-20'
                     />

@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const features = [
   {
-    icon: "/map.svg",
+    icon: "/team.svg",
     title: "3000+",
-    subtitle: "Viajes Realizados",
+    subtitle: "Planta de última generación",
   },
   {
     icon: "/team.svg",
@@ -57,18 +57,18 @@ export default function FeatureStatsTablet() {
                 </div>
 
                 {/* Title + Subtitle */}
-                <h3 className='text-2xl font-bold text-[#244E93]'>
-                  {feature.title}
-                </h3>
-                <p className='text-gray-600 text-sm mt-2'>{feature.subtitle}</p>
+
+                <p className='text-gray-900 text-sm mt-2 font-semibold'>
+                  {feature.subtitle}
+                </p>
 
                 {/* Snowflake */}
                 <div className='absolute bottom-2 right-0 w-7'>
                   <Image
                     src='/snow.svg'
                     alt=''
-                    width={42}
-                    height={42}
+                    width={22}
+                    height={22}
                     className='z-10'
                   />
                 </div>
