@@ -64,7 +64,7 @@ export default function HeroTablet() {
         {/* Camión */}
         <div className='relative -mt-8 z-0'>
           <img
-            src='/logo-truck.png'
+            src='/logotruck.png'
             alt='Truck'
             className='ml-auto max-w-[500px]'
           />

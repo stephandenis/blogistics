@@ -22,6 +22,6 @@ export default function Hero() {
   }
 
   if (width < 768) return <HeroMobile />;
-  if (width < 1024) return <HeroTablet />;
+  if (width < 1200) return <HeroTablet />;
   return <HeroDesktop />;
 }

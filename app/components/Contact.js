@@ -23,7 +23,7 @@ export default function Contact() {
       <div className='max-w-6xl mx-auto'>
         {/* Encabezado */}
         <div className='text-center mb-12'>
-          <p className='text-md tracking-widest text-[#244E93] font-medium uppercase mb-2'>
+          <p className='text-lg tracking-widest text-[#244E93] font-medium uppercase mb-2'>
             — Contacto
           </p>
           <p className='text-gray-600 text-sm max-w-xl mx-auto'>
@@ -76,7 +76,7 @@ export default function Contact() {
           {/* Columna derecha - Formulario */}
           <div className='bg-white p-6 rounded-lg shadow-md'>
             <h3 className='text-xl font-semibold mb-4'>Contáctanos</h3>
-            <form onSubmit={handleSubmit} className='space-y-4'>
+            <form onSubmit={handleSubmit} className='space-y-12'>
               <div>
                 <label
                   htmlFor='email'
@@ -120,7 +120,7 @@ export default function Contact() {
               <button
                 type='submit'
                 disabled={state.submitting}
-                className='bg-[#244E93] text-white px-6 py-2 rounded-md font-semibold text-sm hover:bg-[#1f417a] transition'
+                className='bg-[#244E93] text-white px-6 py-2 rounded-md font-semibold text-sm hover:bg-[#1f417a] transition cursor-pointer'
               >
                 Enviar Mensaje
               </button>

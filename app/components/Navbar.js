@@ -80,7 +80,8 @@ export default function Navbar() {
             {/* Acceso a Clientes */}
             <div className='flex justify-end w-full lg:w-auto'>
               <a
-                href='/'
+                href='https://bovay.nimach-cloud-services.com/'
+                target='_blank'
                 className='flex items-center gap-x-2 text-white font-semibold text-sm px-4 py-2
                            bg-[#244E93] rounded-md lg:rounded-xl lg:text-sm 
                            lg:w-[180px] lg:h-[55px] lg:justify-center'

@@ -44,7 +44,7 @@ export default function HeroMobile() {
       {/* Truck Image */}
       <div className=''>
         <img
-          src='/truck-mobile.png'
+          src='/logotruck.png'
           alt='Truck'
           className='w-3/4 ml-auto h-auto object-contain'
         />

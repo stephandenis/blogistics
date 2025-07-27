@@ -13,7 +13,7 @@ export default function Hero() {
             Aliados en tu crecimiento.
           </div>
 
-          <h1 className='font-afacad text-6xl w-full font-semibold leading-[64px] whitespace-nowrap'>
+          <h1 className='font-afacad text-[52px] font-bold'>
             Somos B Logistics
           </h1>
 
@@ -41,7 +41,7 @@ export default function Hero() {
         {/* Centro - Imagen del camión */}
         <div className='w-full'>
           <Image
-            src='/logo-truck.png'
+            src='/logotruck.png'
             alt='Truck'
             width={400}
             height={300}

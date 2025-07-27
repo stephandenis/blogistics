@@ -41,21 +41,29 @@ export default function OurWork() {
               </div>
             </div>
 
+            <p className='hidden sm:block text-md text-gray-600 border-l-[3px] border-[#244E93] pl-4'>
+              Nuestra planta de última generación cuenta con tres motores
+              tornillo sistematizados para un consumo eficiente. Dos grupos
+              electrógenos de 725 kva y la mejor infraestructura para tu
+              mercadería.
+            </p>
             {/* Imagen 2 - Relaciones */}
-            <div className='group relative w-full h-[250px] lg:h-[481px] rounded overflow-hidden'>
+            {/* <div className='group relative w-full h-[250px] lg:h-[481px] rounded overflow-hidden'>
               <Image
                 src='/ourwork/relaciones.png'
                 alt='Confianza y compromiso'
                 fill
                 className='object-cover'
-              />
-              {/* Overlay degradado hover */}
+              />*/}
+            {/* Overlay degradado hover */}
+            {/* 
               <div className='absolute inset-0 bg-gradient-to-t from-[#002C6D] via-[#244E93]/25 to-[#097EC3]/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
               <div className='absolute bottom-0 left-0 p-4 bg-gradient-to-t from-black/80 to-transparent text-white text-sm w-full z-10'>
                 <span className='block text-xs text-gray-300'>Relaciones</span>
                 <strong className='text-sm'>Confianza y compromiso</strong>
               </div>
-            </div>
+            </div> 
+             */}
           </div>
 
           {/* Columna derecha */}
@@ -97,12 +105,12 @@ export default function OurWork() {
             </div>
 
             {/* Texto final con línea azul */}
-            <p className='text-md text-gray-600 border-l-[3px] border-[#244E93] pl-4'>
+            {/* <p className='text-md text-gray-600 border-l-[3px] border-[#244E93] pl-4'>
               Somos tu base de operaciones en Buenos Aires. Nuestra ubicación
               estratégica en el Polo Industrial de Ezeiza, a solo 20 minutos del
               Aeropuerto Internacional de Ezeiza y a 40 minutos de los
               principales terminales portuarias.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

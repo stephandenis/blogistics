@@ -29,7 +29,7 @@ export default function Footer() {
             <p>Llamanos</p>
             <p className='text-white'>+54 9 116 307 3483</p>
             <p>Clientes</p>
-            <p className='text-white'>info@bLogistics.com</p>
+            <p className='text-white'>info@blogistics.com</p>
             <p>Dónde estamos</p>
             <p className='text-white'>Ezeiza.</p>
           </div>
@@ -40,8 +40,10 @@ export default function Footer() {
           <h3 className='text-white font-bold mb-2 border-b-2 border-[#244E93] inline-block'>
             Acceso clientes
           </h3>
-          <p className='text-sm text-gray-300 mt-4'>
-            Iniciar sesión como cliente.
+          <p className='text-sm text-gray-300 mt-4 cursor pointer'>
+            <a href='https://bovay.nimach-cloud-services.com/' target='_blank'>
+              Iniciar sesión como cliente.
+            </a>
           </p>
         </div>
       </div>
