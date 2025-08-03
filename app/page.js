@@ -20,7 +20,6 @@ export default function Home() {
       <Hero />
       <Feature />
       <Services />
-      <Separator />
       <ServicesExtra />
       <About />
       <WhyUsSelector />
