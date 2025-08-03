@@ -32,16 +32,17 @@ export default function FeatureStatsSection() {
         {/* Truck Image */}
         <div className='h-[600px] w-full relative overflow-hidden rounded-md'>
           <Image
-            src='/feature-truck.jpg'
+            src='/featuretruck.png'
             alt='Camión Blogistic'
-            fill
-            className='object-cover rounded-md'
+            height={600}
+            width={1400}
+            className='object-contain rounded-md'
             priority
           />
         </div>
 
         {/* Feature Cards (Raised Overlap) */}
-        <div className='absolute left-1/2 transform -translate-x-1/2 bottom-[-100px] translate-y-[10%] w-full px-4'>
+        <div className='absolute left-1/2 transform -translate-x-1/2 bottom-[-100px] translate-y-[-50%] w-full px-4'>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto'>
             {features.map((feature, index) => (
               <div

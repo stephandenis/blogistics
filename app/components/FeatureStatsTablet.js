@@ -31,7 +31,7 @@ export default function FeatureStatsTablet() {
         {/* Truck Image */}
         <div className='relative h-[460px] w-full overflow-hidden rounded-md'>
           <Image
-            src='/feature-truck.jpg'
+            src='/featuretruck.png'
             alt='Camión Blogistic'
             fill
             className='object-cover rounded-md'
