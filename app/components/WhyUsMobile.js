@@ -74,12 +74,12 @@ export default function WhyUsMobile() {
             text: "Contamos con detección de amoníaco y humo, red contra incendios, etc.",
           },
           {
-            icon: "/why-4.svg",
+            icon: "/why-5.svg",
             title: "Atención 24/7",
             text: "Atención personalizada con ejecutivos de cuenta.",
           },
           {
-            icon: "/why-4.svg",
+            icon: "/why-6.svg",
             title: "Personalización",
             text: "Indicadores logísticos (KPI) diseñados en conjunto con cada cliente.",
           },
