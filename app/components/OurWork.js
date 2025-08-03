@@ -26,7 +26,7 @@ export default function OurWork() {
             {/* Imagen 1 - Misión */}
             <div className='group relative w-full h-[250px] lg:h-[481px] rounded overflow-hidden'>
               <Image
-                src='/ourwork/mision.png'
+                src='/ourwork/front.jpg'
                 alt='Optimizar cadena de valor'
                 fill
                 className='object-cover'
@@ -71,7 +71,7 @@ export default function OurWork() {
             {/* Imagen 1 - Visión */}
             <div className='group relative w-full h-[250px] lg:h-[481px] rounded overflow-hidden'>
               <Image
-                src='/ourwork/vision.png'
+                src='/ourwork/mycom.jpg'
                 alt='Ser líderes en el mercado'
                 fill
                 className='object-cover'
@@ -87,7 +87,7 @@ export default function OurWork() {
             {/* Imagen 2 - Excelentes relaciones */}
             <div className='group relative w-full h-[250px] lg:h-[481px] rounded overflow-hidden'>
               <Image
-                src='/ourwork/excelente.png'
+                src='/ourwork/download.jpg'
                 alt='Garantizar un servicio excepcional'
                 fill
                 className='object-cover'

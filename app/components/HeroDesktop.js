@@ -41,7 +41,7 @@ export default function Hero() {
         {/* Centro - Imagen del camión */}
         <div className='w-full'>
           <Image
-            src='/logotruck.png'
+            src='/trucknobackground.png'
             alt='Truck'
             width={400}
             height={300}
@@ -70,7 +70,7 @@ export default function Hero() {
             <img src='/icon2.svg' alt='Icon 2' className='w-10 h-10' />
             <div>
               <p className=' font-semibold text-black text-base'>
-                Opreaciones in-house
+                Operaciones in-house
               </p>
               <p className=' text-sm text-[#717580] leading-snug'>
                 Gestion eficiente de stock

@@ -5,17 +5,17 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Armado de Kits",
+    title: "Valor agregado",
     description:
-      "Nuestra amplia experiencia en el armado de kits nos permite brindar un servicio esencial dentro de la cadena logística, ayudando a mejorar los tiempos operativos y maximizar la rentabilidad de nuestros clientes.",
-    image: "/services/kits.png",
+      "Analizamos tu operación e identificamos los puntos de mejora para garantizar la trazabilidad y gestión en tus productos.",
+    image: "/services/kits.jpg",
     icon: "/snow.svg",
   },
   {
-    title: "Tomas de muestra",
+    title: "Control de calidad",
     description:
-      "Acompañamos cada operación con tomas de muestra específicas, garantizando la trazabilidad de los productos conforme a los requerimientos de nuestros clientes.",
-    image: "/services/muestras.png",
+      "En B Logistics somos los ojos de tu mercadería y por eso generamos controles de calidad personalizados para mantener los estandares establecidos.",
+    image: "/services/sample.jpg",
     icon: "/snow.svg",
   },
 ];
@@ -51,7 +51,7 @@ export default function AdditionalServices() {
                   width={600}
                   height={400}
                   quality={100} // fuerza máxima calidad
-                  className='w-full h-auto object-cover rounded-xl'
+                  className='w-full h-[400px] object-cover rounded-xl'
                 />
 
                 <div className='absolute left-1/2 transform -translate-x-1/2 translate-y-1/2 bottom-6 w-[80%] h-[120px] bg-white shadow-md rounded-xl px-6 py-6 flex items-center justify-center z-10 overflow-visible'>

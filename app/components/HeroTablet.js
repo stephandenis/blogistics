@@ -43,18 +43,18 @@ export default function HeroTablet() {
             <div className='flex items-start gap-3 bg-white text-black p-4 rounded-xl shadow-lg'>
               <img src='/icon1.svg' alt='Icon 1' className='w-8 h-8' />
               <div>
-                <p className='font-bold'>Transporte Total</p>
+                <p className='font-semibold'>Logistica Integral</p>
                 <p className='text-sm text-gray-600'>
-                  Desde el proveedor hasta la puerta del cliente.
+                  Desde el proveedor hasta <br /> la puerta del cliente.
                 </p>
               </div>
             </div>
             <div className='flex items-start gap-3 bg-white text-black p-4 rounded-xl shadow-lg'>
               <img src='/icon2.svg' alt='Icon 2' className='w-8 h-8' />
               <div>
-                <p className='font-bold'>Carga y Descarga</p>
+                <p className='font-semibold'>Operaciones in-house</p>
                 <p className='text-sm text-gray-600'>
-                  Contamos con Docks y Warehouses
+                  Gestion eficiente de stock
                 </p>
               </div>
             </div>
@@ -64,7 +64,7 @@ export default function HeroTablet() {
         {/* Camión */}
         <div className='relative -mt-8 z-0'>
           <img
-            src='/logotruck.png'
+            src='/trucknobackground.png'
             alt='Truck'
             className='ml-auto max-w-[500px]'
           />

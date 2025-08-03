@@ -48,7 +48,7 @@ export default function WhyUsTablet() {
         <div className='flex flex-col gap-6 flex-1'>
           <div className='aspect-[4/3] rounded-xl overflow-hidden'>
             <Image
-              src='/services/almacenamiento.png'
+              src='/whyus/lift.jpg'
               alt='Imagen 1'
               width={500}
               height={400}
@@ -57,7 +57,7 @@ export default function WhyUsTablet() {
           </div>
           <div className='aspect-[4/3] rounded-xl overflow-hidden'>
             <Image
-              src='/services/almacenamiento.png'
+              src='/whyus/cargo.jpg'
               alt='Imagen 2'
               width={500}
               height={400}
@@ -73,7 +73,7 @@ export default function WhyUsTablet() {
         <div className='flex flex-col gap-6 flex-1'>
           <div className='aspect-[4/3] rounded-xl overflow-hidden'>
             <Image
-              src='/services/almacenamiento.png'
+              src='/whyus/stock.jpg'
               alt='Imagen 3'
               width={500}
               height={400}
@@ -82,7 +82,7 @@ export default function WhyUsTablet() {
           </div>
           <div className='aspect-[4/3] rounded-xl overflow-hidden'>
             <Image
-              src='/services/almacenamiento.png'
+              src='/whyus/temp.jpg'
               alt='Imagen 4'
               width={500}
               height={400}

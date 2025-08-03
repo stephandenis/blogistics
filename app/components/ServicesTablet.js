@@ -7,19 +7,19 @@ const services = [
   {
     title: "Almacenamiento",
     subtitle: "Contamos con 1500mts² cubiertos",
-    image: "/services/almacenamiento.png",
+    image: "/services/storage.jpg",
   },
   {
     title: "Túnel de Congelado",
-    image: "/services/tunel.png",
+    image: "/services/frozen.jpg",
   },
   {
     title: "Carga y Descarga",
-    image: "/services/carga.png",
+    image: "/services/cargo.jpg",
   },
   {
     title: "Sistema de Gestión",
-    image: "/services/gestion.png",
+    image: "/services/system.png",
   },
 ];
 

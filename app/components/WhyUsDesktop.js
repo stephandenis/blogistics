@@ -71,10 +71,10 @@ export default function WhyUsDesktop() {
           {/* Galería central - 2 columnas, 2 filas */}
           <div className='col-span-2 grid grid-cols-2 grid-rows-2 gap-3 min-w-[450px]'>
             {[
-              "/services/almacenamiento.png",
-              "/services/almacenamiento.png",
-              "/services/almacenamiento.png",
-              "/services/almacenamiento.png",
+              "/whyus/lift.jpg",
+              "/whyus/cargo.jpg",
+              "/whyus/stock.jpg",
+              "/whyus/temp.jpg",
             ].map((src, i) => (
               <div
                 key={i}
@@ -96,7 +96,7 @@ export default function WhyUsDesktop() {
               {
                 icon: "/why-4.svg",
                 title: "Seguridad",
-                text: "Contamos con detección de amoníaco y humo, red contra incendios, etc.",
+                text: "Contamos con detección de amoníaco y humo, red contra incendios y grupos electrogenos.",
               },
               {
                 icon: "/why-5.svg",

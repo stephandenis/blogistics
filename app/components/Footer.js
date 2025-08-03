@@ -27,7 +27,7 @@ export default function Footer() {
           </h3>
           <div className='text-sm text-gray-300 mt-4 space-y-2'>
             <p>Llamanos</p>
-            <p className='text-white'>+54 9 116 307 3483</p>
+            <p className='text-white'>+54 11 3220 0289</p>
             <p>Clientes</p>
             <p className='text-white'>info@blogistics.com</p>
             <p>Dónde estamos</p>

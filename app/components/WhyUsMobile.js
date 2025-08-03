@@ -47,7 +47,7 @@ export default function WhyUsMobile() {
       <div className='flex gap-4 mb-6'>
         <div className='w-1/2 aspect-[4/3] rounded-xl overflow-hidden'>
           <Image
-            src='/services/almacenamiento.png'
+            src='/whyus/lift.jpg'
             alt='img1'
             width={300}
             height={200}
@@ -56,7 +56,7 @@ export default function WhyUsMobile() {
         </div>
         <div className='w-1/2 aspect-[4/3] rounded-xl overflow-hidden'>
           <Image
-            src='/services/almacenamiento.png'
+            src='/whyus/cargo.jpg'
             alt='img2'
             width={300}
             height={200}

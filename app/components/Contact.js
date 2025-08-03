@@ -68,7 +68,7 @@ export default function Contact() {
             <div>
               <p className='text-xs text-gray-600'>Atención al Cliente</p>
               <p className='text-[#244E93] font-semibold mt-1'>
-                +54 9 11 6307 3483
+                +54 11 3220 0289
               </p>
             </div>
           </div>

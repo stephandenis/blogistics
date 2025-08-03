@@ -7,7 +7,7 @@ export default function AboutDesktop() {
         {/* Imagen vertical a la izquierda */}
         <div className='w-[400px] rounded-xl overflow-hidden'>
           <Image
-            src='/about.png'
+            src='/services/product.jpg'
             alt='Depósito'
             width={400}
             height={600}
@@ -55,7 +55,7 @@ export default function AboutDesktop() {
             <Image src='/telefono.png' alt='Teléfono' width={30} height={30} />
             <div className='text-sm'>
               <p className='text-gray-800'>¿Tenés preguntas? Llámanos</p>
-              <p className='font-bold text-[#244E93]'>+5411-6778-89877</p>
+              <p className='font-bold text-[#244E93]'>+54 11 3220 0289</p>
               <p className='text-gray-500 text-xs mt-1'>
                 Atención personalizada con ejecutivos de cuenta.
               </p>
