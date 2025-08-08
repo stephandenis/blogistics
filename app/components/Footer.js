@@ -29,7 +29,7 @@ export default function Footer() {
             <p>Llamanos</p>
             <p className='text-white'>+54 11 3220 0289</p>
             <p>Clientes</p>
-            <p className='text-white'>info@blogistics.com</p>
+            <p className='text-white'>info@blogistics.com.ar</p>
             <p>Dónde estamos</p>
             <p className='text-white'>Ezeiza.</p>
           </div>
